@@ -5,7 +5,7 @@ litemall:
     app-secret: e04004829d4c383b4db7769d88dfbca1
     mch-id: 111111
     mch-key: xxxxxx
-    notify-url: http://118.24.0.153:8080/wx/order/pay-notify
+    notify-url: http://ljk1026.vicp.cc/wx/order/pay-notify
     # 商户证书文件路径
     # 请参考“商户证书”一节 https://pay.weixin.qq.com/wiki/doc/api/wxa/wxa_api.php?chapter=4_3
     key-path: xxxxx
@@ -24,7 +24,7 @@ litemall:
     # 短消息模版通知配置
     # 短信息用于通知客户，例如发货短信通知，注意配置格式；template-name，template-templateId 请参考 NotifyType 枚举值
     sms:
-      enable: false
+      enable:
       appid: 111111111
       appkey: xxxxxxxxxxxxxx
       template:
