@@ -19,4 +19,5 @@ public class WxLoginInfo {
     public void setUserInfo(UserInfo userInfo) {
         this.userInfo = userInfo;
     }
+
 }

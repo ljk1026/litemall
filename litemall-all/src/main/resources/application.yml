@@ -4,9 +4,16 @@ spring:
   messages:
     encoding: UTF-8
 
+  mvc:
+    static-path-pattern: /**
+    resources:
+      static-locations: classpath:/static/
+
+
 server:
   port: 8080
-
+  ssl:
+    key-store:
 logging:
   level:
     root:  DEBUG
@@ -17,3 +24,4 @@ logging:
     org.linlinjava.litemall.admin:  DEBUG
     org.linlinjava.litemall.wx:  DEBUG
     org.linlinjava.litemall:  DEBUG
+  path: D:/logs/

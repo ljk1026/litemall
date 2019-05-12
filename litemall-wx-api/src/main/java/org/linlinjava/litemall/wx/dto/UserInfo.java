@@ -8,7 +8,15 @@ public class UserInfo {
     private String city;
     private String language;
     private Byte gender;
+    private String mobileNum;
 
+    public String getMobileNum() {
+        return mobileNum;
+    }
+
+    public void setMobileNum(String mobileNum) {
+        this.mobileNum = mobileNum;
+    }
     public String getCountry() {
         return country;
     }

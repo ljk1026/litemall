@@ -1,11 +1,11 @@
 litemall:
   # 开发者应该设置成自己的wx相关信息
   wx:
-    app-id: wx13871859104402a9
-    app-secret: e6de0dea414fbca2a79f92566b94913c
+    app-id: wx45926349e16d6aaa
+    app-secret: e6b06f5d5a7bc7438899372f73787d7d
     mch-id: 111111
     mch-key: xxxxxx
-    notify-url: http://www.minmonkey./wx/order/pay-notify
+    notify-url: http://ljk1026.vicp.cc/wx/order/pay-notify
     # 商户证书文件路径minmonkeyxyz
     # 请参考“商户证书”一节 https://pay.weixin.qq.com/wiki/doc/api/wxa/wxa_api.php?chapter=4_3
     key-path: xxxxx
